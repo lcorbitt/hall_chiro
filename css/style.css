@@ -5523,6 +5523,9 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 	color: #434445;
 }
 
+
+
+
 /** 1.16 Breadcrumbs */
 .breadcrumb {
 	padding: 8px 15px;
@@ -33919,13 +33922,13 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .rd-navbar-default.rd-navbar-fixed, .rd-navbar-minimal.rd-navbar-fixed, .rd-navbar-floated.rd-navbar-fixed, .rd-navbar-top-panel.rd-navbar-fixed, .rd-navbar-logo-center.rd-navbar-fixed, .rd-navbar-default.rd-navbar-fixed .rd-navbar-panel, .rd-navbar-minimal.rd-navbar-fixed .rd-navbar-panel, .rd-navbar-floated.rd-navbar-fixed .rd-navbar-panel, .rd-navbar-top-panel.rd-navbar-fixed .rd-navbar-panel, .rd-navbar-logo-center.rd-navbar-fixed .rd-navbar-panel {
-	height: 56px;
+	height: 100px;
 }
 
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-toggle, .rd-navbar-minimal.rd-navbar-fixed .rd-navbar-toggle, .rd-navbar-floated.rd-navbar-fixed .rd-navbar-toggle, .rd-navbar-top-panel.rd-navbar-fixed .rd-navbar-toggle, .rd-navbar-logo-center.rd-navbar-fixed .rd-navbar-toggle {
 	position: fixed;
 	z-index: 17;
-	top: 4px;
+	top: 25px;
 	left: 4px;
 	display: inline-block;
 	position: relative;
@@ -34070,7 +34073,7 @@ fieldset[disabled] .bg-primary .btn-java {
 	.rd-navbar-default.rd-navbar-fixed .rd-navbar-brand, .rd-navbar-minimal.rd-navbar-fixed .rd-navbar-brand, .rd-navbar-floated.rd-navbar-fixed .rd-navbar-brand, .rd-navbar-top-panel.rd-navbar-fixed .rd-navbar-brand, .rd-navbar-logo-center.rd-navbar-fixed .rd-navbar-brand {
 		display: block;
 		position: fixed;
-		top: 28px;
+		top: 50px;
 		left: 50%;
 		width: auto;
 		transform: translate(-50%, -50%);
@@ -37062,6 +37065,7 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .rd-navbar-minimal.rd-navbar-fixed .rd-navbar-top-panel-toggle span {
+	top: 25px;
 	display: inline-block;
 	position: relative;
 	width: 48px;
@@ -37126,7 +37130,7 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .rd-navbar-minimal.rd-navbar-fixed .rd-navbar-brand {
-	max-width: 200px;
+	max-width: 300px;
 }
 
 .rd-navbar-minimal.rd-navbar-fixed .contact-info + .contact-info {
@@ -37191,10 +37195,6 @@ fieldset[disabled] .bg-primary .btn-java {
 
 .rd-navbar-minimal.rd-navbar-fixed .contact-info span + span {
 	margin: 0;
-}
-
-.rd-navbar-minimal.rd-navbar-fixed .rd-navbar-brand {
-	display: none;
 }
 
 .rd-navbar-minimal.rd-navbar-fixed .rd-navbar-search {
@@ -38247,6 +38247,8 @@ fieldset[disabled] .bg-primary .btn-java {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+
 
 /** 3.4  RD Video */
 .rd-video {
